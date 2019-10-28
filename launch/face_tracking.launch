@@ -12,4 +12,6 @@
       $(arg face_cascade_name_3)
       $(arg face_cascade_name_4)"
       output="screen"/>
+
+   <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure"/>
 </launch>
